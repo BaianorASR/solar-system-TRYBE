@@ -1,0 +1,52 @@
+.card-mission {
+  background-color: rgb(59, 66, 82);
+  border: 2px solid rgb(143, 188, 187);
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.623);
+  font-family: Roboto , serif;
+  font-size: 20px;
+  height: 300px;
+  justify-content: center;
+  line-height: 32px;
+  padding: 10px;
+  position: relative;
+  text-align: center;
+  width: 300px;
+}
+
+.card-mission p:nth-child( 1 ) {
+  align-items: center;
+  background-color: rgb(216, 222, 233);
+  box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.212);
+  color: rgb(46, 52, 64);
+  display: flex;
+  font-family: Roboto , serif;
+  font-size: 25px;
+  font-weight: 900;
+  height: 70px;
+  justify-content: center;
+  margin: 0;
+}
+
+.card-mission p:nth-child( 2 ) {
+  color: rgb(163, 190, 140);
+  font-weight: 700;
+  margin-top: 70px;
+}
+
+.card-mission p:nth-child( 3 ) {
+  color: rgb(236, 239, 244);
+  font-size: 16px;
+  font-style: italic;
+}
+
+.card-mission p:nth-child( 4 ) {
+  bottom: 8px;
+  color: rgb(216, 222, 233);
+  display: flex;
+  font-weight: 700;
+  justify-content: center;
+  left: 0;
+  position: absolute;
+  right: 0;
+}

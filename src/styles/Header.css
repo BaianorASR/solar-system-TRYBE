@@ -1,0 +1,15 @@
+@import url('//db.onlinewebfonts.com/c/175929511a4ecce394c9afe333eb946d?family=Nasa') ;
+
+header {
+  background-color: rgba(0, 0, 0, 0.541);
+  display: flex;
+  justify-content: center;
+  padding: 16px;
+}
+
+h1 {
+  color: rgb(94, 129, 172);
+  font-family: Nasa , serif;
+  font-size: 80px;
+  font-weight: 700;
+}

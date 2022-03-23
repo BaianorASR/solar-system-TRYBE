@@ -1,0 +1,32 @@
+.card-planet {
+  color: rgb(143, 188, 187);
+  margin-bottom: 100px;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.card-planet p {
+  font-family: Roboto , sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.card-planet img {
+  animation: rotation 60s infinite linear;
+  width: 175px;
+}
+
+.card-planet:nth-child( 6 ) img {
+  animation: none;
+}
+
+@keyframes rotation {
+
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}

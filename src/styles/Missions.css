@@ -1,0 +1,13 @@
+.missions {
+  background-color: rgba(0, 0, 0, 0.39);
+  display: flex;
+  flex-flow: column wrap;
+  padding-bottom: 60px;
+}
+
+.cards-container {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 32px;
+  justify-content: center;
+}
